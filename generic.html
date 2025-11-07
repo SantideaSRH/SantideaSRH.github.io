@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Solid State by HTML5 UP</title>
+		<title>Space Shooting GAME by Santiago De Alba</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
+						<h1><a href="index.html"></a>Space Shooting GAME</h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -30,11 +30,9 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="index.html">GAME REVIEW</a></li>
+								<li><a href="generic.html">ABOUT</a></li>
+								<li><a href="elements.html">HOW TO PLAY</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -44,8 +42,7 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Generic</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<h2>About</h2>
 							</div>
 						</header>
 
@@ -53,29 +50,32 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									<h3 class="major">Lorem ipsum dolor</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-
-									<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
-
-									<h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-									</section>
-
+									<h3 class="major">Functionality</h3>
+									<p><b>Enemy Behavior:</b><br />
+										<li>Enemies and the boss move horizontally across the screen, changing direction when they hit the screen edges.</li>
+										<li>They periodically fire bullets downwards towards the player.</li>
+										<li>Each enemy has a health bar above them that depletes as they take damage.</li><br />
+										<b>Collision Detection:</b><br />
+										<li>Player bullets destroy enemies by reducing their health.</li>
+										<li>Enemy and boss bullets reduce the player's health.</li>
+										<li>Sound effects play for both hits.</li><br />
+										<b>Health Management:</b><br /> 
+										<li>Both the player and enemies have health bars. When an entity's health reaches zero, it is defeated.</li>
+										<b>Win Condition:</b> <br />
+										<li>You win the game by defeating all three enemy types (the two regular enemies and the boss).</li>
+										<b>Loss Condition:</b> <br />
+										<li>lose if your player ship's health reaches zero.</li>
+										<b>Visuals & Sound:</b><br /> 
+										<li>A static background sets the scene, while scaled images represent the player, enemies, and bullets. Audio cues enhance the immersive experience.</li></p>
+									<h3 class="major">Key Features</h3>
+									<p><b>Classic Arcade Shooter Gameplay:</b> Engaging 2D top-down shooting action.<br />
+										<b>Intuitive Controls:</b> Easy-to-learn WASD movement and spacebar shooting.<br />
+										<b>Multiple Enemy Types:</b> Face off against two distinct enemy ships and a powerful boss, each with unique attributes.<br />
+										<b>Health System:</b> Player and enemies have visible health bars for strategic combat.<br />
+										<b>Projectile Combat:</b> Dynamic bullet mechanics for both player and enemies.<br />
+										<b>Sound Effects:</b> Audio cues for shooting and hitting targets enhance immersion.<br />
+										<b>Clear Win/Loss Conditions:</b> Understand your objectives and consequences readily.<br />
+										<b>Powered:</b> Built on the versatile Pygame library for robust game development.</p>
 								</div>
 							</div>
 
@@ -85,7 +85,7 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<p>For more information, please leave your name and email below, and we will contact you shortly.</p>
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
